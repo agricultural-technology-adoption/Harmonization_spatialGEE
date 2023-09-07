@@ -1,26 +1,26 @@
-# Harmonization_spatialGEE
+
 # Adding geo-spatial data to survey data
 ## Overview
 
 The sample script provides the data extraction and exportation code to add spatial information for geolocated data. A sample code and the base image loading functions are provided to allow users to adapt the code for their use. 
 
-The code provides three levels of extraction:
+## The code provides three levels of extraction:
 * Pixel co-located with jittered GPS coordinates
 * Spatial average over circular buffer with radius equal to jittering radius
 * Spatial average over Admin 2 boundary
 
-Google Colaboratory Notebook & Python interface to Google Earth Engine
+## Google Colaboratory Notebook & Python interface to Google Earth Engine
 * Open access, easily shareable, configurable
 * Earth Engine -- maintained, high-level QC databases
 * Folium maps -- interactive, can zoom and take snapshots of what you like for web, project materials, etc.
 * Google Docs -- Documentation in easy web-based format
 
-Extraction:
+## Extraction:
 * Match coordinates and survey dates to raster data
 * Reduce (average, sum, etc. over area, time)
 * Export to CSV
 
-Data sources used:
+## Data sources used:
 1. Luminosity; DMSP OLS: Nighttime Lights Time Series Version 4, Defense Meteorological Program Operational Linescan System
 https://developers.google.com/earth-engine/datasets/catalog/NOAA DMSP-OLS NIGHTTIME LIGHTS Annual Level, from 1992-2013
 2. Forest Cover; Hansen Global Forest Change v1.8 (2000-2020)
